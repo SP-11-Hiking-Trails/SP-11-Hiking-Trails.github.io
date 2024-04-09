@@ -2,24 +2,30 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: rgb(141, 141, 141);
+    display: flex;
+    flex-direction: column;
 }
 
 header {
-    background-color: #fced22;
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(141, 141, 141);
     padding: 20px;
     text-align: center;
+    text-decoration-color: black;
 }
 
 .developers {
     display: flex;
     justify-content: space-around;
     margin: 30px 0;
+    background-color: rgb(141, 141, 141);
 }
 
 .developer {
     text-align: center;
     width: 30%;
+    
 }
 
 .developer img {
@@ -29,14 +35,15 @@ header {
 }
 
 .course-info {
-    background-color: #f0f0f0;
+    background-color: rgb(255, 208, 0);
     padding: 10px;
     text-align: center;
 }
 
 .links {
-    background-color: #f0f0f0;
+    background-color: rgb(53, 53, 53);
     padding: 20px;
+    align-self: flex-end;
 }
 
 .links ul {
